@@ -1,3 +1,6 @@
+[bank-full_train (1).csv](https://github.com/anudua26/Banking-Project---predictive-modelling-in-R/files/8294800/bank-full_train.1.csv)
+[bank-full_train.csv](https://github.com/anudua26/Banking-Project---predictive-modelling-in-R/files/8294840/bank-full_train.csv)
+[Prediction using model.csv](https://github.com/anudua26/Banking-Project---predictive-modelling-in-R/files/8294867/Prediction.using.model.csv)
 # Banking-Project---predictive-modelling-in-R
 
 Business Scenario:
