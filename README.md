@@ -28,3 +28,5 @@ KS score for test data should come out to be more than 0.47
 
 
 
+I have used the Logistic Regression predictive modelling technique for this project. I have attached my R script in this project repository.
+
