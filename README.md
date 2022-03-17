@@ -27,7 +27,9 @@ DESIRED RESULT from this project:
 KS score for test data should come out to be more than 0.47
 
 
-My R script for this project as below:
+
+SCRIPT:  R code for this project is as below:
+
 
 setwd("C:/Users/Anupam/Desktop/Data")
 getwd()
@@ -108,6 +110,7 @@ bd_test$data = NULL
 
 
 #Building the model
+
 set.seed(2)
 s = sample(1:nrow(bd_train), 0.8*nrow(bd_train))
 
@@ -132,7 +135,7 @@ glimpse(bd)
  sort(vif(for_vif), decreasing = TRUE) [1:3]
  
  
- #Logistic regression
+ #Using Logistic regression modelling technique
  
  formula(for_vif)
 
@@ -217,7 +220,9 @@ test.score = predict(log_fit.final,newdata=bd_test,type="response")
 test.class=as.numeric(test.score>cutoff)
 test.class=ifelse(test.class==1,"Yes","No")
 
-# For project submission
+
+
+
 
 write.csv(test.class,"Anupam_Dua_P5_part2.csv",row.names = F)
 
